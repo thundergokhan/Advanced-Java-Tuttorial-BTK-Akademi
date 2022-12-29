@@ -4,6 +4,7 @@
 Açıklama
 
 Eğitim Amacı
+<li>
 Bu eğitimin amacı, Java programlama dilini bilenlerin sektörde en yaygın kullanılan teknolojilere adaptasyonunu sağlamaktır.
 Eğitim Özeti
 Kendinize programlama dünyasında etkin bir yer ayırmaya hazır mısınız? Eğitimin en büyük özelliği, best practice odaklı olması ve syntax bazlı programlama yerine; Ne-Ne Zaman-Nerede-Niçin sorularına cevap vermesidir. Örneğin, bir çok programcı "Interface" syntax'ını bilir fakat onu gerçek hayatta kullanmakta zorlanır.
@@ -28,6 +29,7 @@ Java ile Nesne Yönelimli Programlama (OOP) yapabilecek,
 SOLID yazılım geliştirme prensiplerini öğrenecek,
 Tasarım Desenlerine (Design Patterns) giriş yapacak,
 Sektörde en çok kullanılan Java teknolojilerini öğrenecek.
+  </li>
 
 <hr>
 Müfredat
