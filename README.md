@@ -35,22 +35,10 @@ Müfredat
 <b>
 İleri Seviye Java
 </b>
-
 1.Spring İle Çalışmaya Başlamak
-
-
 2.Spring IOC ve Dependency Injection
-
-
 3.Hibernate
-
 4. Maven İle Çalışmak
-
-
 5.Spring Boot : Giriş
-
-
 6.Spring Boot : Spring Rest
-
-
 7.Spring Boot : Katmanlı Mimariler
