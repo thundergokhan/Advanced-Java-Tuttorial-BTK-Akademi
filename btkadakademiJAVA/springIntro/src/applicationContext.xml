@@ -7,8 +7,9 @@
 	   		http://www.springframework.org/schema/context
 	   		http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
+	<context:property-placeholder location="classpath:values.properties"/>
 	<bean id="database" class="springIntro.CustomerDal">
-		<property name="connectionString" ref="--Sql Server string--"></property>
+		<property name="connectionString" value="${database.connectionString}"></property>
 	</bean>
 	<bean id="service" class="springIntro.CustomerManager">
 		<!-- <constructor-arg ref="database"/> -->
