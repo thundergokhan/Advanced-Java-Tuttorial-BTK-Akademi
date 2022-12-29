@@ -44,7 +44,6 @@ Müfredat
 
 3.Hibernate
 
-
 4. Maven İle Çalışmak
 
 
