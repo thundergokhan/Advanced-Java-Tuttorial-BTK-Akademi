@@ -1,0 +1,30 @@
+package com.hibernatedemo;
+
+import java.util.ArrayList;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class Main {
+
+	public static void main(String[] args) {
+		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(City.class)
+				.buildSessionFactory();
+
+		Session session = factory.getCurrentSession();
+
+		try {
+			session.beginTransaction();
+//Select*from city
+			ArrayList<City> cities = session.createQuery("from city);
+
+					session.getTransaction().commit();
+
+		} finally {
+			factory.close();
+		}
+
+	}
+
+}

@@ -1,0 +1,18 @@
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.3.0</version>
+</dependency>
+
+<dependencies>
+  <dependency>
+    <groupId>jakarta.xml.bind</groupId>
+    <artifactId>jakarta.xml.bind-api</artifactId>
+    <version>2.3.3</version>
+  </dependency>
+  <dependency>
+    <groupId>com.sun.xml.bin</groupId>
+    <artifactId>jaxb-ri</artifactId>
+    <version>2.3.3</version>
+  </dependency>
+</dependencies>
