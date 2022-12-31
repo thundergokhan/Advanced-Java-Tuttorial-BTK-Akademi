@@ -1,0 +1,9 @@
+package com.javacourse.project.hibernateAndJpa.Entities;
+
+public class City {
+	private int id;
+	private string name;
+	private string countryCode;
+	private String district;
+	private int population;
+}
