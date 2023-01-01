@@ -1,0 +1,7 @@
+package com.javacourse.project.hibernateAndJpa.DataAccess;
+
+public interface ICityDal {
+	List<City> GetAll();
+
+	void add();
+}

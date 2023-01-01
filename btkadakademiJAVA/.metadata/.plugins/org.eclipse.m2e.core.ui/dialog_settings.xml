@@ -82,6 +82,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\gokha\Downloads\Spring\hibernateAndJpa"/>
 			<item value="C:\Users\gokha\Downloads\Spring\springBootDemo"/>
 		</list>
 		<list key="projectNameTemplate">
